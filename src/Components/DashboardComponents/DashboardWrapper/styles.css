@@ -1,0 +1,26 @@
+.tab-wrapper{
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    
+}
+.grid-flex{
+   
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list-flex{
+   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}

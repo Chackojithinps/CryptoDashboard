@@ -1,0 +1,134 @@
+.wrapper{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.big-heading{
+    font-size: 8rem;
+}
+.big-heading-blue{
+    color: var(--blue);
+}
+.big-first-heading:hover{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:var(--white);
+    color: var(--black);
+    transition: all 0.5s;
+}
+img.crypto-image {
+    /* width: 65%; */
+    width: 24%;
+    position: absolute;
+   right: 5rem;
+   top: 7rem;
+}
+.image-box{
+    
+    bottom: 15rem;
+    right: 3rem;
+}
+
+img.blueShade {
+    position: absolute;
+    right: 65px;
+    width: 20%;
+    object-fit: contain;
+    top: 15rem;
+}
+.para{
+    color: var(--grey);
+    margin-top: -70px;
+}
+.left-buttons{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+@media only screen and (max-width: 1275px) {
+    .big-heading{
+        font-size: 7rem;
+    }
+    img.crypto-image{
+        top: 10rem;
+    }
+    img.blueShade{
+        top: 15rem;
+    }
+    .para{
+        margin-top: -28px;
+      
+    
+}
+}
+@media only screen and (max-width: 1149px) {
+    .big-heading{
+        font-size: 5rem;
+    }
+    img.crypto-image{
+       /* min-width:250px ; */
+       top: 8rem;
+    }
+    img.blueShade{
+        top: 14rem;
+        /* min-width: 200px; */
+    }
+    .para{
+        margin-top: -28px;
+      
+    
+}
+}
+@media only screen and (max-width: 963px) {
+    .big-heading{
+        font-size: 3rem;
+    }
+    img.crypto-image{
+       min-width:200px ;
+       top: 8rem;
+    }
+    img.blueShade{
+        top: 13rem;
+        min-width: 170px;
+    }
+    .para{
+        margin-top: -28px;
+      width: 20rem;
+    
+}
+}
+@media only screen and (max-width: 687px) {
+    
+    .big-heading{
+        font-size: 4rem;
+    }
+    .para{
+        margin-top: -28px;
+      width: 20rem;
+    }
+    .image-box{
+       position: absolute;
+       top: 28rem;
+     }
+
+}
+@media only screen and (max-width: 439px) {
+    
+    .big-heading{
+        font-size: 4rem;
+    }
+  
+    .para{
+      margin-top: -28px;
+      width: 20rem;
+    }
+    .image-box{
+       position: absolute;
+       top: 35rem;
+     }
+
+}
